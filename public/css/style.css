@@ -1,0 +1,36 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.owl-prev, .owl-next {
+    font-size: 24px;    /* Increase button icon size */
+    width: 50px;        /* Increase button width */
+    height: 50px;       /* Increase button height */
+    line-height: 50px;  /* Center align icon vertically */
+    background-color: #007bff; /* Add a background color */
+    color: white;       /* Change icon color */
+    border-radius: 50%; /* Make buttons circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%; /* Vertically center */
+    transform: translateY(-50%);
+  }
+  
+  /* Position the buttons */
+  .owl-prev {
+    left: -50px; /* Adjust the position of the previous button */
+  }
+  
+  .owl-next {
+    right: -50px; /* Adjust the position of the next button */
+  }
+  

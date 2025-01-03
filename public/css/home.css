@@ -1,0 +1,31 @@
+/* HomePage.css */
+
+.home-page {
+    /* background-color:; */
+    padding: 20px;
+  }
+  
+  .welcome-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .platform-overview {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  .action-buttons .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  .quick-search-bar .form-control {
+    border-radius: 20px;
+  }
+  
+  .quick-search-bar .btn {
+    border-radius: 20px;
+  }
+  

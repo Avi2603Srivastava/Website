@@ -1,0 +1,31 @@
+/* EventListingPage.css */
+
+
+.container{
+  
+}
+.event-listing-page {
+  /* border: 2px solid black; */
+  /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3); */
+    padding: 20px;
+  }
+  
+  .event-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .event-card .btn {
+    border-radius: 20px;
+    
+  }
+  
+  .filters .form-select,
+  .filters .form-control {
+    border-radius: 20px;
+  }
+
+.next{
+    position:absolute;
+    right: 110px;
+}
