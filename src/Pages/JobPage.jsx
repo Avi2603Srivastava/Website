@@ -109,6 +109,7 @@ const JobDetailsPage = ({ event }) => {
     console.log("Application submitted");
     handleCloseModal();
   };
+ 
 
   return (
     <div className="container my-4">

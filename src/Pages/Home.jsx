@@ -4,6 +4,7 @@ import ChooseUs from '../Component/ChooseUs'
 import Form from '../Component/Form'
 import Craousel from '../Component/Craousel'
 import SmallCraousel from '../Component/SmallCraousel'
+import Faq from '../Component/Faq'
 
 
 export default function Home() {
@@ -45,7 +46,9 @@ export default function Home() {
     </div>
     <Aboutus />
     <ChooseUs />
-    <SmallCraousel/>
+    {/* <SmallCraousel/> */}
+    <Faq />
+    
     <Form />
  </>
  )
