@@ -13,34 +13,7 @@ export default function LoginForm() {
     <>
       <div className="container-fluid mt-5">
         <div className="row d-flex align-items-center justify-content-center">
-          {/* <div className="col-md-6 d-flex flex-column align-items-center left">
-            <img
-              src="./logo img.png"
-              // className="d-flex m-auto"
-              alt="image not displayed"
-              height={150}
-              width={150}
-              className="mt-3 logo"
-            />
-            <div className="search-bar d-flex  align-items-center mb-3">
-              <input type="text" placeholder="Coming Soon..." className="search"></input>
-              <i className="fas fa-microphone ms-2"></i>
-              <i className="fas fa-search ms-2"></i>
-            </div>
-            <video
-              width="500"
-              controls
-              className="d-flex m-auto mt-3 videoClip"
-              style={{ borderRadius: "8%" , height:"auto"}  }
-            >
-              <source
-                src="https://res.cloudinary.com/dfv1qnzoz/video/upload/v1719039250/gh211amrhepwgubdirem.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </div> */}
-          <div className="col-md-6 mb-3 right">
+         <div className="col-md-6 mb-3 right">
             <Form className="form-control form-label  m-auto w-50">
               <Form.Group controlId="formBasicEmail">
                 <Form.Control
@@ -283,7 +256,7 @@ export default function LoginForm() {
                     </div>
                   </div>
                   <p className="text-center mb-1 content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore dignissimos obcaecati blanditiis, nemo nam dicta aperiam vitae eos asperiores modi molestiae veniam beatae ab ducimus assumenda saepe minima nisi!
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore dignissimos obcaecati blanditiis, nemo nam dicta aperiam vitae eos asperiores modi molestiae veniam beatae ab ducimus assumenda saepe minima nisi! */}
                   </p>
                   <Button
                     variant="primary"

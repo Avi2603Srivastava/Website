@@ -15,6 +15,7 @@ import ProfilePage from "./Pages/ProfilePage";
 
 
 
+
 export default function App() {
 return (
     <>
@@ -32,6 +33,7 @@ return (
           <Route path="/loginform" element={<LoginForm/>}/>
           <Route path="/faq" element={<FaqPage/>}/>
           <Route path="/profile" element={<ProfilePage/>}/>
+       
         </Routes>
         <Scrolltop/>
         <Footer />
